@@ -1,0 +1,22 @@
+{
+    "name": "pomodoro-timer",
+    "version": "1.0.0",
+    "description": "A Pomodoro Timer App with tasks and authentication",
+    "main": "main.js",
+    "scripts": {
+        "start": "webpack serve --mode development --open",
+        "build": "webpack --mode production"
+        
+    },
+    "devDependencies": {
+        "css-loader": "^6.8.1",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.5.0",
+        "style-loader": "^3.3.3",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.2.0"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+}

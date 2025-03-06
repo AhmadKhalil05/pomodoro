@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pomodoro</h1>
+        <nav>
+            <button id="report">Report</button>
+            <button id="settings">Settings</button>
+            <button id="login">Sign In</button>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="timer-container">
+            <div class="tabs">
+                <button class="tab active" data-mode="work">Pomodoro</button>
+                <button class="tab" data-mode="shortBreak">Short Break</button>
+                <button class="tab" data-mode="longBreak">Long Break</button>
+            </div>
+            <div class="timer">
+                <span id="minutes">25</span>:<span id="seconds">00</span>
+            </div>
+            <button id="start">START</button>
+            <button id="pause">PAUSE</button>
+
+            <p id="status-message">Time to focus!</p>
+            <button id="toggle-breaks">⇄ Switch Break</button>
+
+        </div>
+
+        <div class="tasks">
+            <h2>Tasks</h2>
+            <input type="text" id="task-input" placeholder="Add a new task">
+            <button id="add-task">+ Add Task</button>
+            <ul id="task-list"></ul>
+        </div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+</html>

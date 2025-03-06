@@ -1,0 +1,25 @@
+# Pomodoro Timer App 
+
+A simple and effective **Pomodoro Timer** to help you stay focused and productive. The app follows the **Pomodoro Technique**, where you work in intervals with short breaks in between.
+
+
+## Features
+ Start, pause, and reset the timer easily.  
+ Switch between Work, Short Break, and Long Break modes.  
+ Add and manage tasks during sessions.  
+ Customizable session durations.  
+ Simple, modern, and responsive design.  
+
+
+## How to Run the Project?
+
+
+* Make sure you have Node.js installed.
+* npm install 
+* Run the project : npx webpack serve --mode development --open or npm start 
+
+
+## demo video :https://drive.google.com/file/d/1cL9WSxgeSRbzrbB47y7c4xfl2ATBzvXR/view?usp=sharing
+
+Ahmad Khalil 
+Github repo : 
